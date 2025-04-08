@@ -11,7 +11,7 @@ This is a tech demo for Nebulous, an interactive escape room company focused on 
 
 ## How to Use
 
-1. Visit the [Nebulous Demo](https://YOUR-GITHUB-USERNAME.github.io/nebulous/) (replace with your actual GitHub Pages URL)
+1. Visit the [Nebulous Demo](https://hackraindrop.github.io/nebulous/)
 2. Explore the cryptic interface and learn about the Loch Ness expedition
 3. Click the Nessie icon in the bottom right to chat with the Loch Ness Monster
 4. Ask questions about Loch Ness, Scottish folklore, cryptids, or the puzzles
@@ -56,4 +56,4 @@ Created by Jack Kirk for Nebulous.
 
 ## License
 
-[Include your license information here]
+Nebulous Tech Demo © 2025 by Jack Kirk is licensed under CC BY-NC-ND 4.0 
