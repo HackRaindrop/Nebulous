@@ -56,4 +56,4 @@ Created by Jack Kirk for Nebulous.
 
 ## License
 
-Nebulous Tech Demo © 2025 by Jack Kirk is licensed under CC BY-NC-ND 4.0 
+Nebulous Tech Demo © 2025 by Jack Kirk is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) 
