@@ -52,7 +52,7 @@ This project is designed to be deployed on GitHub Pages. To deploy your own vers
 
 ## Credits
 
-Created by [Your Name] for Nebulous Cryptid Escape Rooms.
+Created by Jack Kirk for Nebulous.
 
 ## License
 
