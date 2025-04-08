@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Dark water background -->
+  <rect width="500" height="500" fill="#051a2e" />
+  
+  <!-- Mysterious fog/mist patterns -->
+  <path d="M0,100 Q125,150 250,100 Q375,50 500,100 L500,0 L0,0 Z" fill="#0a2e42" opacity="0.4" />
+  <path d="M0,250 Q125,200 250,250 Q375,300 500,250 L500,150 L0,150 Z" fill="#0a2e42" opacity="0.3" />
+  <path d="M0,400 Q125,450 250,400 Q375,350 500,400 L500,300 L0,300 Z" fill="#0a2e42" opacity="0.2" />
+  
+  <!-- Subtle ripple patterns -->
+  <path d="M0,150 Q50,155 100,150 Q150,145 200,150 Q250,155 300,150 Q350,145 400,150 Q450,155 500,150" 
+        fill="none" stroke="#1a4a6e" stroke-width="1" opacity="0.3" />
+  <path d="M0,200 Q50,205 100,200 Q150,195 200,200 Q250,205 300,200 Q350,195 400,200 Q450,205 500,200" 
+        fill="none" stroke="#1a4a6e" stroke-width="1" opacity="0.3" />
+  <path d="M0,250 Q50,255 100,250 Q150,245 200,250 Q250,255 300,250 Q350,245 400,250 Q450,255 500,250" 
+        fill="none" stroke="#1a4a6e" stroke-width="1" opacity="0.3" />
+  <path d="M0,300 Q50,305 100,300 Q150,295 200,300 Q250,305 300,300 Q350,295 400,300 Q450,305 500,300" 
+        fill="none" stroke="#1a4a6e" stroke-width="1" opacity="0.3" />
+  <path d="M0,350 Q50,355 100,350 Q150,345 200,350 Q250,355 300,350 Q350,345 400,350 Q450,355 500,350" 
+        fill="none" stroke="#1a4a6e" stroke-width="1" opacity="0.3" />
+  
+  <!-- Mysterious shapes in the distance (could be Nessie) -->
+  <path d="M320,280 C330,270 340,275 350,265 C360,255 370,260 380,270 C380,280 370,285 360,280 C350,285 340,290 330,285 C320,290 310,285 320,280 Z" 
+        fill="#0e3320" opacity="0.2" />
+  
+  <!-- Subtle ancient runes/symbols scattered around -->
+  <circle cx="100" cy="100" r="5" fill="#2a5c34" opacity="0.2" />
+  <circle cx="400" cy="150" r="5" fill="#2a5c34" opacity="0.2" />
+  <circle cx="250" cy="350" r="5" fill="#2a5c34" opacity="0.2" />
+  <circle cx="150" cy="400" r="5" fill="#2a5c34" opacity="0.2" />
+  <circle cx="350" cy="400" r="5" fill="#2a5c34" opacity="0.2" />
+  
+  <!-- Strange symbols -->
+  <path d="M100,100 L110,110 M95,110 L105,100" stroke="#2a5c34" stroke-width="2" opacity="0.2" />
+  <path d="M400,150 L410,160 M395,160 L405,150" stroke="#2a5c34" stroke-width="2" opacity="0.2" />
+  <path d="M250,350 L260,360 M245,360 L255,350" stroke="#2a5c34" stroke-width="2" opacity="0.2" />
+  <path d="M150,400 L160,410 M145,410 L155,400" stroke="#2a5c34" stroke-width="2" opacity="0.2" />
+  <path d="M350,400 L360,410 M345,410 L355,400" stroke="#2a5c34" stroke-width="2" opacity="0.2" />
+</svg>

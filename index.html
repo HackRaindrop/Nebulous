@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebulous - Cryptid Escape Adventures</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Cryptic symbols for decoration -->
+    <div class="cryptic-symbol top-left">
+        <svg width="50" height="50" viewBox="0 0 50 50">
+            <circle cx="25" cy="25" r="20" fill="none" stroke="#1a5c34" stroke-width="1" />
+            <path d="M25,5 L25,45 M5,25 L45,25 M15,15 L35,35 M15,35 L35,15" stroke="#1a5c34" stroke-width="1" />
+        </svg>
+    </div>
+    <div class="cryptic-symbol bottom-right">
+        <svg width="60" height="60" viewBox="0 0 60 60">
+            <path d="M30,10 L50,30 L30,50 L10,30 Z" fill="none" stroke="#1a5c34" stroke-width="1" />
+            <circle cx="30" cy="30" r="15" fill="none" stroke="#1a5c34" stroke-width="1" />
+            <circle cx="30" cy="30" r="5" fill="#1a5c34" opacity="0.5" />
+        </svg>
+    </div>
+    
+    <header>
+        <div class="clubhouse-door">
+            <h1>Nebulous</h1>
+            <p>Uncover the Mysteries of the Cryptid World</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="dashboard">
+            <h2><i class="fas fa-compass"></i> Cryptid Expeditions</h2>
+            <div class="adventure">
+                <h3>Nessie's Depths</h3>
+                <p>Dive into the mysterious waters of Loch Ness and uncover the secrets that lie beneath the surface. Can you find evidence of the legendary creature?</p>
+                <div class="adventure-details">
+                    <span><i class="fas fa-clock"></i> Duration: 60 minutes</span>
+                    <span><i class="fas fa-users"></i> Team size: 2-6</span>
+                    <span><i class="fas fa-star"></i> Difficulty: Medium</span>
+                </div>
+                <button onclick="startAdventure()"><i class="fas fa-play"></i> Begin Expedition</button>
+            </div>
+        </section>
+
+        <section id="interactive-elements">
+            <h2><i class="fas fa-search"></i> Cryptid Evidence</h2>
+            <div class="clue">
+                <p>Ancient Scottish legends speak of strange markings near the water's edge. Decipher the code to reveal Nessie's hiding place.</p>
+                <div class="clue-image">
+                    <img src="images/cryptid-bg.svg" alt="Mysterious markings" width="100%">
+                </div>
+                <input type="text" id="clue-input" placeholder="Enter the ancient code...">
+                <button onclick="submitClue()"><i class="fas fa-key"></i> Decipher</button>
+            </div>
+        </section>
+
+        <section id="lessons">
+            <h2><i class="fas fa-book-open"></i> Cryptid Research</h2>
+            <div class="lesson">
+                <h3>Research Log 1: Sonar Technology</h3>
+                <p>Learn how to use sonar equipment to detect large objects beneath the murky waters of Loch Ness. Historical data suggests unusual movement patterns at depths of 100-150 meters.</p>
+                <span class="research-tag">Science</span>
+                <span class="research-tag">Technology</span>
+            </div>
+            <div class="lesson">
+                <h3>Research Log 2: Scottish Folklore</h3>
+                <p>Ancient texts describe a "water horse" that has inhabited the loch for centuries. Local witnesses report seeing a long-necked creature with multiple humps breaking the water's surface.</p>
+                <span class="research-tag">History</span>
+                <span class="research-tag">Mythology</span>
+            </div>
+            <div class="lesson">
+                <h3>Research Log 3: Cryptozoology</h3>
+                <p>Modern cryptozoologists theorize that Nessie could be a surviving plesiosaur or an unknown species adapted to the cold, dark waters of the loch.</p>
+                <span class="research-tag">Biology</span>
+                <span class="research-tag">Mystery</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Chatbot Button -->
+    <div id="chatbot-button" onclick="toggleChatbot()">
+        <img src="images/nessie-icon.svg" alt="Nessie Guide" width="50" height="50">
+    </div>
+
+    <!-- Chatbot Popup -->
+    <div id="chatbot-popup" class="hidden">
+        <div id="chatbot-header">
+            <h3><i class="fas fa-water"></i> Nessie's Whispers</h3>
+            <button><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chatbot-messages"></div>
+        <div id="chatbot-input">
+            <input type="text" id="chatbot-user-input" placeholder="Ask about the mysteries of Loch Ness...">
+            <button onclick="sendChatbotMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nebulous Cryptid Escape Rooms | <i class="fas fa-map-marker-alt"></i> Loch Ness, Scotland</p>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+# Node.js server files (not needed for GitHub Pages)
+server/
+node_modules/
+package-lock.json
+package.json
+
+# Windows batch files
+*.bat
+
+# Fallback HTML (not needed for GitHub Pages)
+fallback.html
+
+# Zip files
+*.zip
+
+# Original README
+README.txt
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
